@@ -1,0 +1,108 @@
+:root {
+  --bd-color-light: rgb(177, 167, 167);
+  --bd-color-dark: rgba(0, 0, 0, 0.295);}
+body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #ffdeeb;
+  gap: 20px;
+  padding: 20px 15px 20px 15px;
+}
+.container-project {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.goals,
+.team,
+.scopes,
+.primary,
+.timeline {
+  background-color: #f5edf3;
+}
+/*Goals*/
+.Goal {
+  border-bottom: 1.5px solid var(--bd-color-dark);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #da77f2;
+}
+.Goal-1 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: 1.5px solid var(--bd-color-dark);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.icon-flag-checkered {
+  margin: 20px;
+  font-size: 30px;
+}
+.icon-user-1,
+.icon-question {
+  font-size: 20px;
+}
+/*Team*/
+.team-1 {
+  border-bottom: 1.5px solid var(--bd-color-dark);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #da77f2;
+}
+.team-icon {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 20px;
+}
+/*scopes*/
+.scopes-1 {
+  border-bottom: 1.5px solid var(--bd-color-dark);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #da77f2;
+}
+.scopes-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+}
+/*Primary*/
+.primary-1 {
+  border-bottom: 1.5px solid var(--bd-color-dark);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #da77f2;
+}
+.primary-2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 20px;
+}
+/*Timeline*/
+.timeline-1 {
+  border-bottom: 1.5px solid var(--bd-color-dark);
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #da77f2;
+}
+.timeline-2 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.timeline-3 {
+  margin-right: 20px;
+  border-bottom: 1.5px dotted rgb(86, 171, 204);
+}
+.EL {
+  color: white;
+  background-color: rgb(162, 32, 194);
+  border: 2px solid rgb(209, 155, 48);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
